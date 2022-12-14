@@ -21,7 +21,7 @@ LIMIT 5  --ele seleciona aleatoriamente
 -- COMMAND ----------
 
 SELECT *, 
-       datediff(dtEstimativaEntrega, dtEntregue) AS qtDiasPromessaEntrega
+       datediff(dtEstimativaEntrega, dtEntregue) AS qtDiasPromessaEntrega --calcular dias entre datas
 
 FROM silver_olist.pedido;
 
