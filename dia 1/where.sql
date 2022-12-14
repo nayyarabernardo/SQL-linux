@@ -42,6 +42,8 @@ WHERE descSituacao IN ('shipped', 'canceled')
 
 AND year(dtPedido) = '2018'
 
+----
+
 -- COMMAND ----------
 
 SELECT *,
